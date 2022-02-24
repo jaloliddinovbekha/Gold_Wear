@@ -534,8 +534,11 @@ header.active{
 .deal .row .count-down{
     display: flex;
     gap: 2rem;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: .5rem 0;
+}
+.count-down .box:not(:first-child){
+    margin-left:6px;
 }
 
 .deal .row .count-down h3{
